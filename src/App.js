@@ -1,10 +1,14 @@
-import FormContainer from "./components/formContainer";
+import FormIntro from "./components/formIntro";
+import Formulario from "./components/formulario";
 
 function App() {
   return (
-    <div>
-      <FormContainer />
-    </div>
+    <section className="contenedorTodo">
+      <div className="contenedorFormulario">
+        <FormIntro />
+        <Formulario />
+      </div>
+    </section>
   );
 }
 

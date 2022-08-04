@@ -1,0 +1,14 @@
+@use '../base/' as *;
+@use 'sass:map' as *;
+
+.contenedorFormulario{
+  background-color: map-get($colores, "primario");
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 2px;
+  max-width: 20rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+  box-shadow: 0 0 13px 2px map-get($colores, "pantalla");
+}
